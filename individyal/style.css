@@ -11,8 +11,13 @@ h1 {
 h2 {
     color: rgb(0, 0, 0);
     margin: 0;
+    font-size: 6em;
 }
-
+h3{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 6em;
+}
 
 header {
     display: flex;
@@ -78,7 +83,7 @@ nav a {
 
 /* изменяем цвет фона при наведении курсора */
 nav a:hover {
-    background-color: #570000;
+    background-color: #000000;
 }
 nav ul ul {
     display: none;
@@ -93,7 +98,7 @@ nav ul li:hover > ul {
 
 /* первый уровень выпадающего списка */
 nav ul ul li {
-    min-width:170px;
+    min-width:70px;
     float:none;
     display:list-item;
     position: relative;
