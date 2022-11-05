@@ -19,6 +19,7 @@ header {
     background-color: #cd4c4c;
     justify-content: space-between;
     margin-bottom: 1px;
+
 }
 
 header ul {
@@ -30,6 +31,7 @@ header ul {
 header ul li {
     margin-right: 40px;
     font-size: 4em;
+    margin-top: 0;
 }
 
 img.displayed {
@@ -106,3 +108,10 @@ nav ul ul ul {
 }
 li > a:after { content:  ' +'; }
 		li > a:only-child:after { content: ''; }
+
+@media (max-width: 400px) {
+    h1 {
+        padding: 0 40px;
+    }
+       
+}
