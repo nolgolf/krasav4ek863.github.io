@@ -18,19 +18,29 @@
     .item {
         display: flex;
         border: #ff0000 solid;
-        width: 1880px;
-        height: 700px;
-        margin-right: 10px;
+        margin-right: auto;
+        width: fit-content;
+        font-family: sans-serif;
     }
 
     .products {
         display: flex;
     }
-
+    h1{
+        font-family:cursive;
+    }
+    .img_element {
+        position: absolute;
+        left: 7px;
+        top:50px;
+    }
     </style>
 <body>
     <header>
-    <h1>Чародейчик</h1>
+        <div class="header_element">
+            <h1 class="h1">Чародейчик</h1>
+            <img src="Group 1.png" width="80px" height="80px">        
+        </div>
       <ul>
        <li><a href="../gg.html"><h1>Скидки</h1></a></li>
        <li><a href="Rabotniki.html"><h1>Работники</h1></a></li>
@@ -61,9 +71,10 @@
         </ul>
     </nav>
 <div class="item">
-    <img src="coca_cola_05.jpg" alt=""width="600px" height="600">
+    <img src="coca_cola_05.jpg" alt=""width="400px" height="400">
     <div class="desc">
-        <h2>Напиток COCA-COLA сильногазированный, 2л, Казахстан, 2 L</h2>
+        <h2>COCA-COLA</h2>
+        <h3>Напиток сильногазированный, 1,5л, Казахстан, 2 L</h3>
         <h3>Цена: 100 руб</h3>
     </div>
 </div>

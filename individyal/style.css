@@ -11,12 +11,12 @@ h1 {
 h2 {
     color: rgb(0, 0, 0);
     margin: 0;
-    font-size: 6em;
+    font-size: 3em;
 }
 h3{
     color: rgb(0, 0, 0);
     margin: 0;
-    font-size: 6em;
+    font-size: 2em;
 }
 
 header {
@@ -34,6 +34,9 @@ header ul {
 header ul li {
     margin-right: 40px;
     font-size: 4em;
+}
+header img  {
+     
 }
 
 img.displayed {
